@@ -32,10 +32,10 @@ public class CrafterControllerFREE : MonoBehaviour
 	void Update()
 	{
 		//Get input from controls
-		float z = Input.GetAxisRaw("Horizontal");
-		float x = -(Input.GetAxisRaw("Vertical"));
+		float z = Input.GetAxisRaw("Vertical");
+		float x = (Input.GetAxisRaw("Horizontal"));
 		inputVec = new Vector3(x, 0, z);
-		animator.SetFloat("VelocityX", -x);
+		animator.SetFloat("VelocityX", x);
 		animator.SetFloat("VelocityY", z);
 
 		//if there is some input
