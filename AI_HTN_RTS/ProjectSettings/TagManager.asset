@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Singleton
+  - tree1
+  - tree2
+  - gold1
+  - gold2
+  - rock1
+  - rock2
+  - wood1
+  - wood2
   layers:
   - Default
   - TransparentFX

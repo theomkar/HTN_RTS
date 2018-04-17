@@ -7,7 +7,7 @@ public enum CharacterState
 	Box
 };
 
-public class CrafterControllerFREE : MonoBehaviour
+public class    CrafterControllerFREE : MonoBehaviour
 {
 	private Animator animator;
 	private GameObject box;

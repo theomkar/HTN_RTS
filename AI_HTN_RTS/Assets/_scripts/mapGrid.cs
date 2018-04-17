@@ -26,7 +26,6 @@ public class mapGrid : MonoBehaviour {
                 pos = new Vector3(grid[i, j].xPos, 0, grid[i, j].zPos);
                 grid[i, j].nodeState = resourceState;
                 Instantiate(resource, pos, transform.rotation);
-
             }
         }
     }

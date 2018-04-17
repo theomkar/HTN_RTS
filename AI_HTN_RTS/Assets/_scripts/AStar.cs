@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
-
 // enum to state the current element on the node
 public enum NodeState {
     EMPTY,    //nothing on the node
@@ -20,5 +18,4 @@ public struct Node {
    public int zPos; // node position in the z-direction
 
    public NodeState nodeState;
-
 }
